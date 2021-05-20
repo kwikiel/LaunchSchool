@@ -1,4 +1,4 @@
-## 1	Style Guide	Not completed
+## 1Style Guide	
 ```javascript 
 
 let ice_cream_taste = 'chocolate' // snake_case => CamelCase
