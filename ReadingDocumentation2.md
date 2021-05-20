@@ -25,7 +25,9 @@ Primitive data types ( guess ):
 - undefined 
 - BigInt 
 - string  
+- Symbol 
 
+Only Object datatype is mutable. Primitive data types are immutable 
 ## 	Largest Number	Not completed
 ## 	Arithmetic Operator Precedence	Not completed
 ## 	Date	Not completed
