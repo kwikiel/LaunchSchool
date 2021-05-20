@@ -15,7 +15,17 @@ console.log('The '+ ice_cream_taste +' ice cream melted.') // lack of spaces bet
 
 
 
-## 	Data Types	Not completed
+## 	Data Types	
+
+Primitive data types ( guess ): 
+- number 
+- object 
+- boolean
+- function 
+- undefined 
+- BigInt 
+- string  
+
 ## 	Largest Number	Not completed
 ## 	Arithmetic Operator Precedence	Not completed
 ## 	Date	Not completed
