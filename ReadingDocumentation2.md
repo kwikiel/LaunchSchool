@@ -28,7 +28,10 @@ Primitive data types ( guess ):
 - Symbol 
 
 Only Object datatype is mutable. Primitive data types are immutable 
-## 	Largest Number	Not completed
+## 	Largest Number	
+
+Number.MAX_VALUE; // 1.7976931348623157e+308
+
 ## 	Arithmetic Operator Precedence	Not completed
 ## 	Date	Not completed
 ## 	Which year is this?	Not completed
