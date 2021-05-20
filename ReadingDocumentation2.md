@@ -32,7 +32,27 @@ Only Object datatype is mutable. Primitive data types are immutable
 
 Number.MAX_VALUE; // 1.7976931348623157e+308
 
-## 	Arithmetic Operator Precedence	Not completed
+## 	Arithmetic Operator Precedence	
+- exponetiation 
+- multiplication 
+- division 
+- remainder 
+- addition
+- subtraction 
+
+For example 
+
+```javascript 
+
+4 * 5 + 3 ** 2 / 10 
+
+4 * 5 + 9 / 10 
+
+20 + 9 / 10
+
+20.9  
+
+```
 ## 	Date	Not completed
 ## 	Which year is this?	Not completed
 ## 	Argument Signatures	Not completed
