@@ -21,3 +21,14 @@ let isValid = tweet.length < 140;
 typeof tweet; // "string"
 typeof words; // "object"
 typeof isValid; // "boolean"
+
+## Method Chaining
+
+```javascript
+let tweet = 'Starting to get the hang of it... #javascript #launchschool';
+
+tweet.split(' '); // Array ["Starting", "to", "get", "the", "hang", "of", "it...", "#javascript", "#launchschool"]
+tweet.split(' ').reverse(); 
+tweet.split(' ').reverse().join(' ');
+
+```
