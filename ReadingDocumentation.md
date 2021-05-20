@@ -32,3 +32,9 @@ tweet.split(' ').reverse();
 tweet.split(' ').reverse().join(' ');
 
 ```
+
+## Equality
+```javascript
+'8' == 8; // true 
+'8' === 8; // false 
+```
