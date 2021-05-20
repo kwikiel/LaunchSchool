@@ -1,4 +1,4 @@
-## 1Style Guide	
+##  Style Guide	
 ```javascript 
 
 let ice_cream_taste = 'chocolate' // snake_case => CamelCase
@@ -15,12 +15,12 @@ console.log('The '+ ice_cream_taste +' ice cream melted.') // lack of spaces bet
 
 
 
-## 2	Data Types	Not completed
-## 3	Largest Number	Not completed
-## 4	Arithmetic Operator Precedence	Not completed
-## 5	Date	Not completed
-## 6	Which year is this?	Not completed
-## 7	Argument Signatures	Not completed
-## 8	String Concatenation	Not completed
-## 9	SyntaxError	Not completed
-## 10	TypeError	Not completed
+## 	Data Types	Not completed
+## 	Largest Number	Not completed
+## 	Arithmetic Operator Precedence	Not completed
+## 	Date	Not completed
+## 	Which year is this?	Not completed
+## 	Argument Signatures	Not completed
+## 	String Concatenation	Not completed
+## 	SyntaxError	Not completed
+## 	TypeError	Not completed
