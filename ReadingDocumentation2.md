@@ -97,4 +97,24 @@ if ((currentSpeed > speedLimit) && ((currentSpeed - speedLimit)) > 5) {
 }
 ```
 Fixed code by aligning and matching brackets in the if statement 
-## 	TypeError	Not completed
+## 	TypeError	
+The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+Type error is where tyipically a value is not of the expected type 
+
+length isn't a function but a property so it cannot be used like this length()
+
+```javascript 
+// broken 
+let tweet = 'Woohoo! :-)';
+
+if (tweet.length() > 140) {
+  console.log('Tweet is too long!');
+}
+// correct 
+let tweet = 'Woohoo! :-)';
+
+if (tweet.length > 140) {
+  console.log('Tweet is too long!');
+}
+
+```
