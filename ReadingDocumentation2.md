@@ -82,6 +82,19 @@ str1 + str2
 Alternative approach 
 ```javascript 
 str1.concat(str2)
+```
+## 	SyntaxError	
 
-## 	SyntaxError	Not completed
+When specific language construct was expected but not found 
+```javascript 
+let speedLimit = 60;
+let currentSpeed = 80;
+
+if ((currentSpeed > speedLimit) && ((currentSpeed - speedLimit)) > 5) {
+  console.log('"People are so bad at driving cars ' +
+    'that computers don\'t have to be that good to be much better." ' +
+    '-- Marc Andreessen');
+}
+```
+Fixed code by aligning and matching brackets in the if statement 
 ## 	TypeError	Not completed
