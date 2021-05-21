@@ -15,7 +15,7 @@ for (let i = 10; i >= 1; i--) {
 console.log("Launch!");
 ```
 ## Triple Greeting
-```
+```javascript
 var greeting = 'Aloha';
 var i = 3; 
 while(i > 0){
