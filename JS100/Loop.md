@@ -15,6 +15,14 @@ for (let i = 10; i >= 1; i--) {
 console.log("Launch!");
 ```
 ## Triple Greeting
+```
+var greeting = 'Aloha';
+var i = 3; 
+while(i > 0){
+  console.log(greeting);
+  i--;
+}
+```
 ## Take Two
 ## Looping over Array Elements
 ## Continue
