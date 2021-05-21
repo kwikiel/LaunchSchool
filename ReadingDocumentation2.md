@@ -65,7 +65,13 @@ Date.now(); // 1621593556936 - number of seconds since Jan 1 1970, 00:00:00 UTC
 getYear() // current year - 1900 also depreciated 
 getFullYear() // returns proper 4 digit year for time between 1000 and 9999
 ```
-## 	Argument Signatures	Not completed
+## 	Argument Signatures
+
+```javascript
+join() // concatenates and returns a new string 
+join(separator) // same as above but between concatenated strings a separator will be placed 
+```
+
 ## 	String Concatenation	Not completed
 ## 	SyntaxError	Not completed
 ## 	TypeError	Not completed
