@@ -59,7 +59,12 @@ For example
 Date.now(); // 1621593556936 - number of seconds since Jan 1 1970, 00:00:00 UTC 
 ```
 
-## 	Which year is this?	Not completed
+## 	Which year is this?	
+
+```javascript
+getYear() // current year - 1900 also depreciated 
+getFullYear() // returns proper 4 digit year for time between 1000 and 9999
+```
 ## 	Argument Signatures	Not completed
 ## 	String Concatenation	Not completed
 ## 	SyntaxError	Not completed
