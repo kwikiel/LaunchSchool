@@ -72,6 +72,16 @@ join() // concatenates and returns a new string
 join(separator) // same as above but between concatenated strings a separator will be placed 
 ```
 
-## 	String Concatenation	Not completed
+## 	String Concatenation
+
+Simple approach: 
+```javascript
+str1 + str2 
+```
+
+Alternative approach 
+```javascript 
+str1.concat(str2)
+
 ## 	SyntaxError	Not completed
 ## 	TypeError	Not completed
