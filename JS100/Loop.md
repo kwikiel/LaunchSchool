@@ -49,8 +49,8 @@ while (index <= 3 ) {
 for(x in cities){
   if(cities[x]){
       console.log(cities[x]);}
-   else {
-          continue;
+  else {
+      continue;
    }
 }
 
