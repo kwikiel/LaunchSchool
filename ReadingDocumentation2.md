@@ -53,7 +53,12 @@ For example
 20.9  
 
 ```
-## 	Date	Not completed
+## 	Date
+
+```javascript 
+Date.now(); // 1621593556936 - number of seconds since Jan 1 1970, 00:00:00 UTC 
+```
+
 ## 	Which year is this?	Not completed
 ## 	Argument Signatures	Not completed
 ## 	String Concatenation	Not completed
