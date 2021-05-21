@@ -24,7 +24,19 @@ while(i > 0){
 }
 ```
 ## Take Two
+```javascript
+
+for(let i = 1; i< 100; i++){
+  console.log(i*2);
+}
+
+```
 ## Looping over Array Elements
+```javascript
+for(let i = 1; i< 100; i++){
+  console.log(i*2);
+}
+```
 ## Continue
 ## And on and on and on
 ## That's Odd
