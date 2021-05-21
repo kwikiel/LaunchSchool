@@ -69,5 +69,15 @@ for (let i = 0; i<1 ; i += 1) {
 }
 ```
 ## That's Odd
+```javascript
+
+var i = 2; 
+while(i < 40 ){
+   if(i % 2 == 1){
+         console.log(i);
+      }
+ i++; 
+}
+```
 ## Finding Nemo
 ## Do...While
