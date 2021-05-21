@@ -45,6 +45,16 @@ while (index <= 3 ) {
 
 ```
 ## Continue
+```javascript
+for(x in cities){
+  if(cities[x]){
+      console.log(cities[x]);}
+   else {
+          continue;
+   }
+}
+
+```
 ## And on and on and on
 ## That's Odd
 ## Finding Nemo
