@@ -8,6 +8,12 @@ for (let i = 0; i <= 10; i += 2) {
 ```
 
 ## Countdown
+```javascript
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+console.log("Launch!");
+```
 ## Triple Greeting
 ## Take Two
 ## Looping over Array Elements
