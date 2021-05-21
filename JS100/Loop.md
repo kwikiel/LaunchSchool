@@ -36,6 +36,13 @@ for(let i = 1; i< 100; i++){
 for(let i = 1; i< 100; i++){
   console.log(i*2);
 }
+
+var index = 0;
+while (index <= 3 ) { 
+    console.log(array[index]); 
+    index++
+}
+
 ```
 ## Continue
 ## And on and on and on
