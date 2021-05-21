@@ -56,6 +56,18 @@ for(x in cities){
 
 ```
 ## And on and on and on
+```javascript
+// loop forever 
+for (let i = 0; ; i += 1) {
+  console.log("and on");
+}
+
+
+// stops after first iteration 
+for (let i = 0; i<1 ; i += 1) {
+  console.log("and on");
+}
+```
 ## That's Odd
 ## Finding Nemo
 ## Do...While
