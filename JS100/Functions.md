@@ -18,9 +18,24 @@ function brendanEichQuote() {
 
 If there is no return statement, the return value is ```undefined```
 
-
-
 ## Cite the Author
+
+```javascript 
+function cite(author, quote){
+	console.log(author + " said: " + '"' + quote + '"');
+}
+```
+
+Gotcha on quotes. 
+
+Better solution 
+
+```javascript 
+function cite(author, quote) {
+  console.log(`${author} said: "${quote}"`);
+}
+```
+
 ## Squared Number
 ## Display Division
 ## Three-way comparison
