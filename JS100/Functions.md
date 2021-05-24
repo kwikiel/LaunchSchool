@@ -37,6 +37,15 @@ function cite(author, quote) {
 ```
 
 ## Squared Number
+
+```javascript
+
+function squaredNumber(num) {
+	return num * num; 
+}
+
+```
+
 ## Display Division
 ## Three-way comparison
 ## Transformation
