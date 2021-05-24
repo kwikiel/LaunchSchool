@@ -167,5 +167,18 @@ if (false || true) {
 It will log "Yes!" as there is or clause in the if statement
 
 ## Logical Conditions 2
+
+
+```javascript 
+
+if (true && false) {
+  console.log('Yes!');
+} else {
+  console.log('No...');
+}
+```
+
+It will log "No..." as && is logical operator AND 
+
 ## Logical Conditions 3	
 ## Are we moving?	
