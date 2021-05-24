@@ -82,6 +82,14 @@ while(i < 40 ){
 ## Finding Nemo
 ## Do...While
 
+Important difference. 
+
+In while loop the condition is evaluated BEFORE
+
+in do while - it's checked after the execution of the code block. 
+
+So the first snippet will print nothing and the second would print "Woooot" and would mutate the state of the counter to  -1 
+
 ```javascript
 
 let counter = 0;
