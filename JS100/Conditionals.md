@@ -194,3 +194,5 @@ admissionPrice if there is sale should be lower but here there is a sale ( true 
 Result: $3.99 
 
 ## Are we moving?	
+
+Yes 
