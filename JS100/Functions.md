@@ -47,6 +47,24 @@ function squaredNumber(num) {
 ```
 
 ## Display Division
+
+```javascript
+
+function multiplesOfThree() {
+  let divisor = 1;
+
+  for (let dividend = 3; dividend <= 30; dividend += 3) {
+    console.log(dividend + ' / ' + divisor + ' = 3');
+    divisor += 1;
+  }
+}
+
+multiplesOfThree;
+
+```
+
+Gotcha: code above will print nothing as the function is not properly invoked 
+
 ## Three-way comparison
 ## Transformation
 ## Internationalization 1
