@@ -112,6 +112,46 @@ switch (foo) {
 ```
 
 ## Check the Weather, Part 2
+
+Understand the problem: convert code below to the switch case 
+Example/Test case: Code above contains example of switch statement
+Data structure: Case switch 
+Algorithm: convert code inside  if ( ) to switch 
+Code with intent; 
+
+
+
+
+```javascript
+let weather = "tornado";
+
+if (weather === "sunny") {
+    console.log("It's a beautiful day");
+} else if (weather == "rainy") {
+    console.log("Grab your umbrella");
+} else {
+    console.log("Let's stay inside")
+}
+
+let weather = "tornado";
+
+switch(weather) {
+	case "sunny": {
+		 console.log("It's a beautiful day");
+		 break; 
+	}
+	case "rainy": {
+		 console.log("Grab your umbrella");
+		 break; 
+	}
+	default: {
+		console.log("Let's stay inside")
+	}
+
+}
+
+```
+
 ## Logical Conditions 1
 ## Logical Conditions 2
 ## Logical Conditions 3	
