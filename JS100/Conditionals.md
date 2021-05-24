@@ -43,11 +43,21 @@ Write an if statement that logs:
 "Let's stay inside." otherwise.
 Test your code with different values for weather.
 
-let weather = "sunny"; 
 
 console.log(weather === "sunny": ""It's a beautiful day!": "Grab your umbrella.")
 
-// "Let's stay inside."
+```javascript
+let weather = "tornado";
+
+if (weather === "sunny") {
+    console.log("It's a beautiful day");
+} else if (weather == "rainy") {
+    console.log("Grab your umbrella");
+} else {
+    console.log("Let's stay inside")
+}
+
+```
 
 ## Switch	Not completed
 ## Check the Weather, Part 2
