@@ -1,5 +1,13 @@
 Title	Status
 ## Sum
+Traditional: 
+
+```
+function sum(a,b) {
+	return a + b; 
+}
+```
+
 ## Log Quote
 ## Cite the Author
 ## Squared Number
