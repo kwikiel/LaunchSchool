@@ -181,4 +181,16 @@ if (true && false) {
 It will log "No..." as && is logical operator AND 
 
 ## Logical Conditions 3	
+
+```javascript 
+let sale = true;
+let admissionPrice = !sale ? 5.25 : 3.99;
+
+console.log('$' + admissionPrice);
+```
+
+admissionPrice if there is sale should be lower but here there is a sale ( true ) so admission price goes to 3.99 
+
+Result: $3.99 
+
 ## Are we moving?	
