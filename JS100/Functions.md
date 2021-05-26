@@ -84,10 +84,14 @@ function compareByLength(a,b){
     return 0; 
 }
 
-But it was slightly harder to  write correctly :) 
+//But it was slightly harder to  write correctly :) 
 ```
 
 ## Transformation
+
+```javascript
+'Captain Ruby'.replace("Ruby", "Javascript")
+```
 ## Internationalization 1
 ## Locale Part 2
 ## Locale Part 1
