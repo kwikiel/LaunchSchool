@@ -66,6 +66,27 @@ multiplesOfThree;
 Gotcha: code above will print nothing as the function is not properly invoked 
 
 ## Three-way comparison
+
+Task: 
+compareByLength('patience', 'perseverance'); // -1
+compareByLength('strength', 'dignity');      //  1
+compareByLength('humor', 'grace');           //  0
+
+```javascript
+
+function compareByLength(a,b){
+    if(a.length < b.length ) {
+    	return -1;
+    }
+    if(a.length > b.length) {
+    	return 1;
+    }
+    return 0; 
+}
+
+But it was slightly harder to  write correctly :) 
+```
+
 ## Transformation
 ## Internationalization 1
 ## Locale Part 2
