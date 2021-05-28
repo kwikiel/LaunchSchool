@@ -21,3 +21,13 @@ console.log(greeting);
 let greeting = 'Hello world!';
 
 ``` 
+
+undefined because myValue is not declared in this scope 
+
+```javascript
+if (true) {
+  let myValue = 20;
+}
+
+console.log(myValue);
+```
