@@ -23,6 +23,8 @@ let greeting = 'Hello world!';
 ``` 
 
 undefined because myValue is not declared in this scope 
+// Correct answer: ReferenceError: myValue is not defined. Let variables are block scoped 
+
 
 ```javascript
 if (true) {
