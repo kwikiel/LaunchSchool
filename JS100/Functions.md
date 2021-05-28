@@ -93,6 +93,19 @@ function compareByLength(a,b){
 'Captain Ruby'.replace("Ruby", "Javascript")
 ```
 ## Internationalization 1
+
+```javascript
+
+function greet(locale){
+	switch(locale) {
+		case 'en': return "Hi!"; 
+		case 'fr': return "Salut!"; 
+	}
+}
+
+
+```
+
 ## Locale Part 2
 ## Locale Part 1
 ## Internationalization 2	
