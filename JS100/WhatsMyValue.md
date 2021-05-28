@@ -8,3 +8,16 @@ var greeting = 'Hello world!';
 // "greeting" is undefined 
 // correct answer: undefined 
 ``` 
+
+
+This time it will log "Hello world" but I'm not sure exactly why 
+// Correct answer: ReferenceError: Cannot access 'greeting' before initialization
+
+
+```javascript
+
+console.log(greeting);
+
+let greeting = 'Hello world!';
+
+``` 
