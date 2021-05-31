@@ -51,3 +51,10 @@ string1.toLowerCase() == string2.toLowerCase()
 true
 ```
 
+## Contains character 
+
+```javascript
+let byteSequence = 'TXkgaG92ZXJjcmFmdCBpcyBmdWxsIG9mIGVlbHMu';
+
+```
+
