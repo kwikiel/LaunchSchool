@@ -80,3 +80,31 @@ function isBlank(a){
     }
 } 
 ```
+
+## Blank version 2 
+
+Change your isBlank function from the previous exercise to return true if the string is empty or only contains whitespace. For example:
+
+```javascript
+
+function isBlank(a){
+ mystring.replace(' ','');
+           
+    if(a){
+        return false; 
+    } else {
+            mystring.replace(' ','');  
+        return true; 
+    }
+} 
+
+
+isBlank('mars'); // false
+isBlank('  ');   // true
+isBlank('');     // true
+```
+
+gotcha: The String.prototype.trim() method removes whitespaces from both ends of a string. Once we removed those whitespaces, we can use the same strategy as in the previous exercise.
+
+
+
