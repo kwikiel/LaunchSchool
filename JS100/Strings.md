@@ -70,3 +70,13 @@ isBlank('mars'); // false
 isBlank('  ');   // false
 isBlank('');     // true
 ``` 
+
+```javascript
+function isBlank(a){
+    if(a){
+        return true; 
+    } else {
+        return false; 
+    }
+} 
+```
