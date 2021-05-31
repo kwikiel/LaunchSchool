@@ -36,3 +36,13 @@ function repeat(input, num) {
 repeat(3, 'ha'); // 'hahaha'
 
 ```
+
+## Case sensitive inequality 
+
+```
+string1 == string2
+false
+string1.toLowerCase() == string2.toLowerCase()
+true
+```
+
