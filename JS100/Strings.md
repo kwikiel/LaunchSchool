@@ -107,4 +107,19 @@ isBlank('');     // true
 gotcha: The String.prototype.trim() method removes whitespaces from both ends of a string. Once we removed those whitespaces, we can use the same strategy as in the previous exercise.
 
 
+## Capitalise words 
 
+```javascript 
+var words = 'launch school tech & talk';
+
+var s = words.split(" "); 
+var output = ""; 
+s.forEach(element => {
+    output += " "+ element[0].toUpperCase() + element.slice(1);
+    element = element.toUpperCase();
+});
+
+//console.log(s.concat(" "));
+console.log(output.trim(" "));
+
+```
