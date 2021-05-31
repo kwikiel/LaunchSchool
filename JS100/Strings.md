@@ -17,3 +17,22 @@ toUpperCase() is a function
 'confetti floating everywhere'.toUpperCase();
 
 ```
+
+## Repeat 
+
+The goal is to implement function that works as the following: 
+
+```javascript
+
+function repeat(input, num) {
+    out = "";
+    while(num > 0 ){
+          out = out + input; 
+          num--; 
+    }
+    return out;
+}
+
+repeat(3, 'ha'); // 'hahaha'
+
+```
