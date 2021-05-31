@@ -33,3 +33,19 @@ if (true) {
 
 console.log(myValue);
 ```
+
+The code below will log 1 to the console. No gotcha here. 
+```javascript
+
+
+function myFunction() {
+  let a = 1;
+
+  if (true) {
+    console.log(a);
+  }
+}
+
+myFunction();
+
+```
