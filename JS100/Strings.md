@@ -64,3 +64,9 @@ byteSequence.indexOf("x");  // index of or -1 if not found
 byteSequence.includes("x"); // true or false 
 ```
 
+## Blank version 1 
+```javascript
+isBlank('mars'); // false
+isBlank('  ');   // false
+isBlank('');     // true
+``` 
