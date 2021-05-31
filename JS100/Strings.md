@@ -74,9 +74,9 @@ isBlank('');     // true
 ```javascript
 function isBlank(a){
     if(a){
-        return true; 
-    } else {
         return false; 
+    } else {
+        return true; 
     }
 } 
 ```
