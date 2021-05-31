@@ -58,7 +58,7 @@ let byteSequence = 'TXkgaG92ZXJjcmFmdCBpcyBmdWxsIG9mIGVlbHMu';
 
 ```
 
-## Contains character 
+## Contains character solution 
 ```javascript
 byteSequence.indexOf("x");  // index of or -1 if not found 
 byteSequence.includes("x"); // true or false 
