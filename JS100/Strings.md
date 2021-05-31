@@ -39,8 +39,9 @@ repeat(3, 'ha'); // 'hahaha'
 
 ## Multi line string 
 
+```javascript
 var mls = "A pirate I was meant to be!\nTrim the sails and roam the sea!"
-
+```
 ## Case sensitive inequality 
 
 ```javascript
