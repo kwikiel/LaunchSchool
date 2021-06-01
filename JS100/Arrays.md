@@ -25,3 +25,9 @@ energy.shift(); // removes fossil
 energy.push("geothermal")
 
 ```
+
+## Alphabet
+```javascript
+alphabet.split("");
+```
+
