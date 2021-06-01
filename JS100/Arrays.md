@@ -31,3 +31,8 @@ energy.push("geothermal")
 alphabet.split("");
 ```
 
+## Filter 
+```javascript 
+scores.filter(x => x > 100).length
+
+```
