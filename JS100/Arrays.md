@@ -16,3 +16,12 @@ function first(ar){
    }
 }
 ```
+
+## Add + Delete 
+```javascript
+let energy = ['fossil', 'solar', 'wind', 'tidal', 'fusion'];
+
+energy.shift(); // removes fossil 
+energy.push("geothermal")
+
+```
