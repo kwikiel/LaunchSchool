@@ -36,3 +36,24 @@ greet();                                // logs: Hello, world!
 greet('Salutations');                   // logs: Salutations, world!
 greet('Good morning', 'Launch School'); // logs: Good morning, Launch School!
 ```
+
+## Greet 3 
+
+```javascript
+function greeting() {
+  return 'Good morning';
+}
+
+function recipient() {
+  return 'Launch School';
+}
+
+function greet(g = greeting(), r=recipient()) {
+  console.log(g + ", " + r + "!");
+}
+
+
+
+
+```
+
