@@ -52,8 +52,17 @@ function greet(g = greeting(), r=recipient()) {
   console.log(g + ", " + r + "!");
 }
 
-
-
-
 ```
 
+## Calculate BMI 
+
+Gotcha: function signature order 
+
+```javascript
+
+function calculateBMI(h,w){
+  return  w / ((h/100)**2); 
+}
+
+console.log(calculateBMI(180, 80));
+```
