@@ -72,7 +72,7 @@ console.log(passcode.join("-"));
 
 ## Checking items off the grocery list 
 
-```
+```javascript
 let groceryList = ['paprika', 'tofu', 'garlic', 'quinoa', 'carrots', 'broccoli', 'hummus'];
 
 while(groceryList.length > 0 ){
