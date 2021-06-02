@@ -36,3 +36,21 @@ alphabet.split("");
 scores.filter(x => x > 100).length
 
 ```
+
+## Vocabulary 
+
+Gotcha: For Python devs it's natural to write for in loop, but javascript has for of loop instead
+
+```javascript
+let vocabulary = [
+  ['happy', 'cheerful', 'merry', 'glad'],
+  ['tired', 'sleepy', 'fatigued', 'drained'],
+  ['excited', 'eager', 'enthused', 'animated']
+];
+
+for(var row of vocabulary) {
+   for(var word of row){
+      console.log(word);
+   }
+}
+```
