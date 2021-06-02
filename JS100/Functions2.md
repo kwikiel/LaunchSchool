@@ -66,3 +66,10 @@ function calculateBMI(h,w){
 
 console.log(calculateBMI(180, 80));
 ```
+
+## Remove last char 
+
+```javascript
+removeLastChar('ciao!'); // 'ciao'
+removeLastChar('hello'); // 'hell'
+```
