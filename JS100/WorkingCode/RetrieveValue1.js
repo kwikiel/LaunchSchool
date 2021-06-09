@@ -9,3 +9,5 @@ let student = {
 
 
 console.log(student.courses);
+
+console.log(student.locker);
