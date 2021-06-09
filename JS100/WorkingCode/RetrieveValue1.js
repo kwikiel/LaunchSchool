@@ -7,7 +7,19 @@ let student = {
     gpa: 3.75,
   };
 
+let jane = {
+    firstName: 'Jane',
+    lastName: 'Harrelson',
+    age: 32,
+    location: {
+      country: 'Denmark',
+      city: 'Aarhus'
+    },
+    occupation: 'engineer',
+  }; 
 
 console.log(student.courses);
 
-console.log(student.locker);
+console.log(student.locker); // undefined 
+
+console.log(jane.location.country)
