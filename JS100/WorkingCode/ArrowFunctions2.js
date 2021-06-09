@@ -10,3 +10,5 @@ let initGame = function () {
   
   console.log('Level: ' + game.level);
   console.log('Score: ' + game.score);
+  
+  // 
