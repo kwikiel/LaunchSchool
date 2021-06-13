@@ -7,9 +7,13 @@ let vehicle = {
     seats: 7
   };
   
-let keys = []; 
+
+/*
 for(const [k,v] of Object.entries(vehicle)){
     keys.push(k);
 }
+*/
+
+keys = Object.keys(vehicle);
 
 console.log(keys); 
