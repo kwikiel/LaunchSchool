@@ -4,7 +4,7 @@
 // One may assume that argument is a valid integer
 
 const isOdd  = function(num){
-    if(Math.abs(num) % 2 == 1){
+    if(Math.abs(num) % 2 === 1){
         return true;
     }
     return false;
