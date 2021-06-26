@@ -39,11 +39,12 @@ const factorial = function fac(n) { return n<2 ? 1 : n*fac(n-1) };
 // ## Implementation 
 
 const readlineSync = require('readline-sync');
-const n = readlineSync.question('Please enter an integer greater than 0: ');
+const n = parseInt(readlineSync.question('Please enter an integer greater than 0: '));
 const option = readlineSync.question('Enter "s" to compute the sum, or "p" to compute the product. ');
 
 if(option == 's'){
-    console.log(n*(n-1/2));
+    // console.log(0.5*(n**2+n));
+    console.log(n*(n+1));
 }
 if(option == 'p'){
     console.log(factorial(n)); 
