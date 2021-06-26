@@ -12,7 +12,7 @@
 // Example: (5, 's') meaning sum of integers from 1 to 5 
 // Example: (6, 'p') meaning product of integers from 1 to 6 //  720 factorial 
 
-// ## Data structure 
+// ## Data structure
 // DS: Two variables holding Integer and Character 
 // DS: Variable holding the result of computation
 
@@ -30,3 +30,21 @@
 // > const readlineSync = require('readline-sync');
 // How to install readline-sync? 
 // > npm install readline-sync
+// Does javascript has built-in factorial? Or it's in math lib? 
+
+// Taken from: https://developer.mozilla.org/pl/docs/Web/JavaScript/Guide/Functions
+const factorial = function fac(n) { return n<2 ? 1 : n*fac(n-1) };
+
+
+// ## Implementation 
+
+const readlineSync = require('readline-sync');
+const n = readlineSync.question('Please enter an integer greater than 0: ');
+const option = readlineSync.question('Enter "s" to compute the sum, or "p" to compute the product. ');
+
+if(option == 's'){
+    console.log(n*(n-1/2));
+}
+if(option == 'p'){
+    console.log(factorial(n)); 
+}
