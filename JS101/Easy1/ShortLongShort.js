@@ -29,6 +29,26 @@
 // ## Algorithm 
 // create two variables, s and l for shorter and longer string respectively 
 // input1 and input2 are input strings 
-// If input1.length() > input2.length() then l = input1, s = input2 
+// If input1.length > input2.length then l = input1, s = input2 
 // Else l = input2, s = input1 
 // Return string formatted string  
+
+// ## Implementation 
+
+function shortLongShort(input1, input2){
+    var s; 
+    var l; 
+    if(input1.length > input2.length){
+         l = input1;
+         s = input2; 
+    }
+    else {
+         l = input2; 
+         s = input1; 
+    }
+    return `${s}${l}${s}`; 
+}
+
+console.log(shortLongShort('abc', 'defgh'));    // "abcdefghabc"
+console.log(shortLongShort('abcde', 'fgh'));    // "fghabcdefgh"
+console.log(shortLongShort('', 'xyz'));         // "xyz"
