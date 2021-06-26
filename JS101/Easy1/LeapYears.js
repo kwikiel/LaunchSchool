@@ -25,6 +25,13 @@
 
 // Implementation 
 function isLeapYear(year) {
+    if(year <= 1752){
+        if(year % 4 == 0){
+            return true;
+        } else {
+            return false; 
+        }
+    }
     if(year % 400 === 0){
         return true; 
     }
