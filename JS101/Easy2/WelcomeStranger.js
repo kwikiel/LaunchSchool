@@ -27,3 +27,13 @@
 // Access object key "occupation"
 
 // Using string formatting `${}` return outcome 
+
+function greetings(personal_data, occupation){
+    return `Hello, ${personal_data.join(" ")}! Nice to have a ${occupation.title} ${occupation.occupation} around.` 
+}
+
+
+console.log(
+    greetings(["John", "Q", "Doe"], { title: "Master", occupation: "Plumber" })
+  );
+// logs Hello, John Q Doe! Nice to have a Master Plumber around.
