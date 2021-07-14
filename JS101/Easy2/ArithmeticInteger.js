@@ -24,11 +24,19 @@
 
 const readlineSync = require('readline-sync');
 
-const first = readlineSync.question('Enter the length of the room in meters:');
-const second = readlineSync.question('Enter the length of the room in meters:');
+const first = parseInt(readlineSync.question('First integer: '));
+const second = parseInt(readlineSync.question('Second integer: '));
 
 // readline-sync is required for getting the data from the user
 // usage is as follows:
-// Import library
+// Import library ( put this into code const readlineSync = require('readline-sync'); )
+// NPM install 
 // Declare constants const first = readlineSync.question('Provide input');
 // Do bizlogic on code
+
+console.log(`${first} + ${second} = ${first + second}`);
+console.log(`${first} - ${second} = ${first - second}`);
+console.log(`${first} * ${second} = ${first * second}`);
+console.log(`${first} / ${second} = ${Math.floor(first / second)}`); // fix 
+console.log(`${first} % ${second} = ${first % second}`);
+console.log(`${first} ** ${second} = ${first ** second}`);
