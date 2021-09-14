@@ -13,17 +13,22 @@
 function simpleToString(num){
     var digits  = []; 
     while(num>0){
-        digits.push(((a % 10 ) + 10 ) % 10);
+        digits.push(((num % 10 ) + 10 ) % 10);
         num = Math.trunc(num/10);
     }
-    return digits;
+    return digits.reverse().join("");
 }
 
-
-function signedNumberToString(number){
+function signedIntegerToString(number){
     if(number > 0){
-        return 
+        return "+" + simpleToString(number);
     }
+    if(number < 0){
+        return "-" + simpleToString(-number);
+    }
+    return "0";
 }
 
-console.log(simpleToString(2137));
+console.log(signedIntegerToString(4321) === "+4321");
+console.log(signedIntegerToString(-123) === "-123");
+console.log(signedIntegerToString(0) === "0");
